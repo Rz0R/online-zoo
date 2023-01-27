@@ -1,0 +1,80 @@
+%ic {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class*='_icon-'] {
+  &:before {
+    @extend %ic;
+    display: block;
+  }
+}
+
+._icon-arrow-left:before {
+  content: '\e912';
+}
+._icon-arrow-right:before {
+  content: '\e913';
+}
+._icon-facebook:before {
+  content: '\e900';
+}
+._icon-instagram:before {
+  content: '\e901';
+}
+._icon-twitter:before {
+  content: '\e902';
+}
+._icon-yotube:before {
+  content: '\e903';
+}
+._icon-pay:before {
+  content: '\e904';
+}
+._icon-zoo:before {
+  content: '\e905';
+}
+._icon-user:before {
+  content: '\e906';
+}
+._icon-sloth:before {
+  content: '\e907';
+}
+._icon-preview:before {
+  content: '\e908';
+}
+._icon-plus:before {
+  content: '\e909';
+}
+._icon-penguin:before {
+  content: '\e90a';
+}
+._icon-panda:before {
+  content: '\e90b';
+}
+._icon-monkey:before {
+  content: '\e90c';
+}
+._icon-minus:before {
+  content: '\e90d';
+}
+._icon-gorilla:before {
+  content: '\e90e';
+}
+._icon-eagle:before {
+  content: '\e90f';
+}
+._icon-dollar:before {
+  content: '\e910';
+}
+._icon-cheetah:before {
+  content: '\e911';
+}
+._icon-alligator:before {
+  content: '\e914';
+}

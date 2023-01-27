@@ -1,0 +1,115 @@
+[class*='-ibg'] {
+  position: relative;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+
+.logo {
+  display: block;
+  border: rem(1) solid $whiteClr;
+  border-radius: rem(2);
+  position: relative;
+
+  width: rem(82);
+  height: rem(52);
+  padding: rem(3.55) rem(4.75);
+
+  text-align: center;
+
+  &__title {
+    color: $whiteClr;
+    font-weight: 400;
+    font-size: rem(19);
+    line-height: 1.2;
+
+    span {
+      display: inline-block;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 21px;
+        background-image: url('../img/icons/bamboo-icon.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        left: rem(-5);
+        bottom: rem(4);
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: rem(298);
+  height: rem(54);
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  color: $whiteClr;
+  text-transform: uppercase;
+
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: rem(5);
+  transition: all 0.5s ease 0s;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+  }
+
+  @media (any-hover: hover) {
+    &:hover::before {
+      background: $darkOrangeClr;
+      opacity: 1;
+    }
+  }
+
+  &:active::before {
+    background: $greenClr;
+    opacity: 1;
+  }
+
+  &:disabled::before {
+    background: $grayClr;
+    opacity: 1;
+  }
+
+  &--rounded {
+    border-radius: rem(25);
+  }
+
+  &--round {
+    width: rem(62);
+    height: rem(62);
+    border-radius: 50%;
+  }
+}
+
+.lock body {
+  // position: fixed;
+  overflow: hidden;
+  touch-action: none;
+}

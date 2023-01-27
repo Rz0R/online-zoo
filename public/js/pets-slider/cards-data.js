@@ -1,0 +1,58 @@
+export const cardsData = [
+  {
+    name: 'Giant Pandas',
+    description: 'Native to Southwest China',
+    image: 'pandas.jpg',
+    icon: 'banana-icon.svg',
+    iconName: 'banana',
+  },
+  {
+    name: 'Eagles',
+    description: 'Native to South America',
+    image: 'eagles.jpg',
+    icon: 'meet-fish-icon.svg',
+    iconName: 'meet fish',
+  },
+  {
+    name: 'Gorillas',
+    description: 'Native to Congo',
+    image: 'gorillas.jpg',
+    icon: 'banana-icon.svg',
+    iconName: 'banana',
+  },
+  {
+    name: 'Two-toed Sloth',
+    description: 'Mesoamerica, South America',
+    image: 'sloth.jpg',
+    icon: 'banana-icon.svg',
+    iconName: 'banana',
+  },
+  {
+    name: 'Cheetahs',
+    description: 'Native to Africa',
+    image: 'cheetahs.jpg',
+    icon: 'meet-fish-icon.svg',
+    iconName: 'meet fish',
+  },
+  {
+    name: 'Penguins',
+    description: 'Native to Antarctica',
+    image: 'penguins.jpg',
+    icon: 'meet-fish-icon.svg',
+    iconName: 'meet fish',
+  },
+  {
+    name: 'Alligators',
+    description: 'Native to Southeastern U. S.',
+    image: 'alligators.jpg',
+    icon: 'meet-fish-icon.svg',
+    iconName: 'meet fish',
+  },
+  {
+    name: 'Gorillas',
+    description: 'Native to Congo',
+    image: 'gorillas2.jpg',
+    icon: 'banana-icon.svg',
+    iconName: 'banana',
+  },
+];
